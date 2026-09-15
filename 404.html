@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Line Weight — Timplex</title>
+<script>
+/* GitHub Pages serves this file for any address it doesn't recognise, with
+   the address left intact. So timplex.github.io/line-weight/alexandre lands
+   here, and this hands it to the app as a name it can pre-fill the login
+   with — the pretty per-person address, with no server and no extra cost.
+   The app itself still asks for the password: the name in the address is a
+   convenience, never a key. */
+(function(){
+  var parts = location.pathname.split("/").filter(Boolean);
+  var repo = parts.length ? parts[0] : "";
+  var name = parts.length > 1 ? parts[parts.length - 1] : "";
+  var base = location.origin + (repo ? "/" + repo : "") + "/";
+  location.replace(base + (name ? "#" + encodeURIComponent(name) : ""));
+})();
+</script>
+</head>
+<body></body>
+</html>

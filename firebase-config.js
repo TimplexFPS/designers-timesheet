@@ -17,12 +17,12 @@
 window.TIMPLEX_CONFIG = {
 
   firebase: {
-    apiKey:            "PASTE_API_KEY",
-    authDomain:        "PASTE_AUTH_DOMAIN",
-    projectId:         "PASTE_PROJECT_ID",
-    storageBucket:     "PASTE_STORAGE_BUCKET",
-    messagingSenderId: "PASTE_MESSAGING_SENDER_ID",
-    appId:             "PASTE_APP_ID"
+    apiKey:            "AIzaSyD-ScFXLOgbrjCuhvPYfLctE0IkTHcJaOI",
+    authDomain:        "timplex-designers-timesheet.firebaseapp.com",
+    projectId:         "timplex-designers-timesheet",
+    storageBucket:     "timplex-designers-timesheet.firebasestorage.app",
+    messagingSenderId: "396232235912",
+    appId:             "1:396232235912:web:a88b20ae3789bb9113f83d"
   },
 
   /* People type just their first name at the login screen ("alexandre").
